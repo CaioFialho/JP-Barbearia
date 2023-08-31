@@ -14,7 +14,7 @@
     <header>
         <div class="logo">
             <figure>
-                <img src="imagens/jp-barbearia-logo.jpg" alt="JP Barbearia">
+                <img src="imagens/jp-barbearia-logo.svg" alt="JP Barbearia">
             </figure>
         </div>
         <nav class="head-nav">
@@ -34,7 +34,17 @@
     </header>
     <main>
         <section class="introdução">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem distinctio voluptatem excepturi, nisi consequatur rerum itaque quo cum libero esse magnam minus debitis doloribus ipsa illo? Id eos iure dignissimos.</p>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide"><img src="imagens/Slide-foto-01.jpg" alt="Imagem da Barbearia"></div>
+                    <div class="slide"><img src="imagens/Slide-foto-02.jpg" alt="Imagem da Barbearia"></div>
+                    <div class="slide"><img src="imagens/Slide-foto-03.jpg" alt="Imagem da Barbearia"></div>
+                    <div class="slide"><img src="imagens/Slide-foto-04.jpg" alt="Imagem da Barbearia"></div>
+                    <div class="slide"><img src="imagens/Slide-foto-05.jpg" alt="Imagem da Barbearia"></div>
+                </div>
+                <button class="slider-button prev" onclick="prevSlide()">&#10094;</button>
+    <button class="slider-button next" onclick="nextSlide()">&#10095;</button>
+            </div>
         </section>
         <article class="sobre-barbearia">
             <div class="side-text">
@@ -50,11 +60,6 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores praesentium totam, recusandae alias magni odio quasi corporis doloremque nemo! Quisquam aspernatur ex asperiores mollitia nisi dolorum sapiente incidunt deserunt atque.</p>
                 </div>
             </div>
-            <div class="side-foto">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
         </article>
         <article class="sobre-jp">
 
@@ -66,5 +71,7 @@
     <footer>
 
     </footer>
+    <script src="index/slider.js"></script>
+    <script src="index/header.js"></script>
 </body>
 </html>
